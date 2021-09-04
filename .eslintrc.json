@@ -1,0 +1,11 @@
+{
+  "extends": [
+      "next/core-web-vitals",
+      "eslint-config-next",
+      "prettier"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-indent" : ["error", 2]
+    }
+}
