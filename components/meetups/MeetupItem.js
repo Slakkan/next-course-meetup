@@ -11,20 +11,20 @@ function MeetupItem(props) {
   }
 
   return (
-    <li className={classes.item}>
-      <Card>
-        <div className={classes.image}>
-          <Image src={props.image} alt={props.title} width="1024" height="720" layout="responsive" />
-        </div>
-        <div className={classes.content}>
-          <h3>{props.title}</h3>
-          <address>{props.address}</address>
-        </div>
-        <div className={classes.actions}>
-          <button onClick={showDetailsHandler}>Show Details</button>
-        </div>
-      </Card>
-    </li>
+      <li className={classes.item}>
+          <Card>
+              <div className={classes.image}>
+                  <Image src={props.image} alt={props.title} width="1024" height="720" layout="responsive" />
+              </div>
+              <div className={classes.content}>
+                  <h3>{props.title}</h3>
+                  <address>{props.address}</address>
+              </div>
+              <div className={classes.actions}>
+                  <button onClick={showDetailsHandler}>Show Details</button>
+              </div>
+          </Card>
+      </li>
   );
 }
 
